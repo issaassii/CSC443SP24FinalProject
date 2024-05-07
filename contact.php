@@ -98,7 +98,7 @@ https://templatemo.com/tm-589-lugx-gaming
                         <input type="surname" name="contactemail" id="surname" pattern="[^ @]*@[^ @]*" placeholder="Email" autocomplete="on" required>
                       </fieldset>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                       <fieldset>
                         <input type="text" name="contactsubject" id="email" placeholder="Subject" required="">
                       </fieldset>
