@@ -51,7 +51,7 @@ https://templatemo.com/tm-589-lugx-gaming
   <div class="main-banner">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 align-self-center">
+        <div class="col-lg-12 align-self-center">
           <div class="caption header-text">
             <h6>Welcome to Book Club!</h6>
             <h2>BEST BOOK SITE EVER!</h2>
@@ -89,11 +89,7 @@ https://templatemo.com/tm-589-lugx-gaming
             </div>
           </div>
         </div>
-        <div class="col-lg-4 offset-lg-2">
-          <div class="right-image">
-            <img src="assets/images/banner-image.jpg" alt="">
-            <span class="price">$22</span>
-            <span class="offer">-40%</span>
+        <div class="col-lg-12">
           </div>
         </div>
       </div>
