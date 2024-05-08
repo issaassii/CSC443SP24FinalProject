@@ -7,15 +7,15 @@
                         <img src="assets/images/logo.png" alt="" style="width: 158px;">
                     </a>
                     <ul class="nav">
-                      <li><a href="/csc443/index.php">About us</a></li>
-                      <li><a href="/csc443/shop.php">Books</a></li>
-                      <li><a href="/csc443/product-details.php">Product Details</a></li>
-                      <li><a href="/csc443/contact.php">Contact Us</a></li>
-                      <li><a href="/csc443/cms">Admin</a></li>
+                      <li><a href="/index.php">About us</a></li>
+                      <li><a href="/shop.php">Books</a></li>
+                      <li><a href="/product-details.php">Product Details</a></li>
+                      <li><a href="/contact.php">Contact Us</a></li>
+                      <li><a href="/cms">Admin</a></li>
                       <?php if(isset($_SESSION["email"])) {
                         echo '
-                            <li><a href="/csc443/cms/signup.php">Sign Up</a></li>
-                            <li><a href="/csc443/cms/logout.php">Log Out</a></li>
+                            <li><a href="/cms/signup.php">Sign Up</a></li>
+                            <li><a href="/cms/logout.php">Log Out</a></li>
                         ';
                         }?>
                   </ul>   

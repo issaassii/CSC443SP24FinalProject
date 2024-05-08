@@ -8,7 +8,6 @@
     $sql = "UPDATE `books` SET `is_active` = '1' WHERE `books`.`id` = $id;";
     $result = mysqli_query($conn, $sql);
 
-    
     if($result) {
         echo "Success.";
     } else {
